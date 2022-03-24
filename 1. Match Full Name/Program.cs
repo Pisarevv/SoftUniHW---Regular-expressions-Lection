@@ -7,6 +7,7 @@ namespace _1._Match_Full_Name
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine("TEST");
         }
     }
 }
