@@ -6,8 +6,8 @@ namespace _1._Match_Full_Name
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("TEST");
+            string names = Console.ReadLine();
+            string regex = @"\b(?<firstName>[A-Z]{1}[a-z]{2,}) (?<secondName>[A-Z]{1}[a-z]{2,})\b";
         }
     }
 }
