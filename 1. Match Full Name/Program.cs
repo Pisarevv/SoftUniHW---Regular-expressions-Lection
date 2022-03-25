@@ -8,7 +8,7 @@ namespace _1._Match_Full_Name
         static void Main(string[] args)
         {
             string names = Console.ReadLine();
-            string pattern = @"\b(?<firstName>[A-Z]{1}[a-z]{2,}) (?<secondName>[A-Z]{1}[a-z]{2,})\b";
+            string pattern = @"\b(?<firstName>[A-Z]{1}[a-z]{1,}) (?<secondName>[A-Z]{1}[a-z]{1,})\b";
 
             
 
@@ -18,6 +18,7 @@ namespace _1._Match_Full_Name
             {
                 Console.Write(match.Value + " ");
             }
+            Console.WriteLine();
         }
     }
 }
